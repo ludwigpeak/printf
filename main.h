@@ -6,12 +6,12 @@
 #include <stdarg.h>
 #include <limits.h>
 
-/***
+/**
  * struct format_func- functions of formating text
  *
  * @c: argument character
  * @f: formating function
- */typedef struct format_func
+ **/typedef struct format_func
 {
 char *c;
 int (*f)();
