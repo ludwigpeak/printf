@@ -73,7 +73,7 @@ for (j = i; j < cifras; j++)
 potencia = potencia * 10;
 }
 y = b / potencia;
-b = b - (y * potencia);
+b = b - (y *potencia);
 _putchar(y + '0');
 }
 _putchar(b + '0');
