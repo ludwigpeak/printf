@@ -1,0 +1,27 @@
+." Use this file with
+." de #include "main.h"
+."
+.TH man_3_printf.c
+.SH NAME
+.B _printf
+- user interface to perform some task
+.SH SYNOPSIS
+A little excercise of creating a printf function.
+.SH DESCRIPTION
+.B Performs the same as the printf function
+.SH USAGE
+- Performs the following tasks.
+.RS 3
+%c: To be used to print characters
+.RS 0
+%s: To be used to print strings
+.RS 0
+%d: To print integers of max and min size of an int type
+.RS 0
+%i: To print integers of max and min size of an int type
+.RS 0
+%b: To print a number in binary form
+- To use _printf with the above key characters a % symbol is needed.
+.SH CREDITS
+.PP
+This man page and _printf function was created by Dan Villalpando and Alberto Rosillo
