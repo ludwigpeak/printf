@@ -18,7 +18,7 @@ typedef struct format_func
 	char *c;
 	int (*f)();
 } print_fx;
-
+ 
 int _printf(const char *format, ...);
 int aux_func(const char *format, va_list args, print_fx *fx);
 int print_c(va_list args);
